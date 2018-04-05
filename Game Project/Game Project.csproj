@@ -350,6 +350,7 @@
     <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
     <Compile Include="Assets\Models\Model_Gun\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
     <Compile Include="Assets\Models\Model_Mountain_Two\Misc\CameraDefault.cs" />
+    <Compile Include="Assets\MyAssets\Scripts\BackToMainLevel.cs" />
     <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\EBulletScript.cs" />
     <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\EnemyScript.cs" />
     <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\PathScript.cs" />
