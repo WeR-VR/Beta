@@ -35,10 +35,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4359195408379524}
   - component: {fileID: 212531949531404804}
-  - component: {fileID: 61418332736043018}
+  - component: {fileID: 65140932429703028}
   m_Layer: 0
   m_Name: PageSprite
-  m_TagString: Untagged
+  m_TagString: Page
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62,7 +62,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1589257857294426}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 38.48905, y: -1.4916015, z: 60.904434}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -70,31 +70,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &61418332736043018
-BoxCollider2D:
+--- !u!65 &65140932429703028
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1675263228717790}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 4.29, y: 4.44}
-    newSize: {x: 4.29, y: 4.44}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.29, y: 4.44}
-  m_EdgeRadius: 0
+  m_Size: {x: 4.29, y: 4.44, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!212 &212531949531404804
 SpriteRenderer:
   m_ObjectHideFlags: 1
