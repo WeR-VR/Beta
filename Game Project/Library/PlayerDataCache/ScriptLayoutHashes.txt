@@ -1,6 +1,6 @@
-Android
+WindowsStandalone
 PlayerPath?
-D:/Downloads/Zips/Future of the West-.v2.0/Future of the West-.v2.0/MainFiles-master/AndroidBuild/Robot_Cowboy_Gamev2.2.2.apk
+D:/College Stuff/Unity/WeRVR_Beta/MainFiles/Beta/WindowBuild/Future of the West.exe
 SceneListBegin?
 Assets/MyAssets/Scene/TitleScreen.unity
 Assets/MyAssets/Scene/MainLevel.unity
@@ -246,6 +246,7 @@ b7f557c19cce3b6f593e26edfe1ec859 Assembly-CSharp.dll:UnityStandardAssets.Vehicle
 0ad469aca31264c6140b1e503c43ab6b Assembly-CSharp.dll:UnityStandardAssets.Utility.TimedObjectDestructor
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.ScrubberEvents
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Water.GerstnerDisplace
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BackToMainLevel
 f4b175ffc1eeca85d2783436b4c764a7 Assembly-CSharp.dll:UnityStandardAssets.Effects.Explosive
 48e2ba8211e4b32f345c4d9dbda48a38 Assembly-CSharp.dll:.CameraDefault
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:GoogleVR.VideoDemo.VideoControlsManager
@@ -271,4 +272,3 @@ b2945430dfd6bbdb5d77043b47bf85e7 Assembly-CSharp.dll:.GvrControllerReticleVisual
 d885ad79a6ef5bfe2ce10637aac0b8a0 Assembly-CSharp.dll:GoogleVR.VideoDemo.AutoPlayVideo
 85fdae060bcd2db12988e475da8a4011 Assembly-CSharp.dll:.Objective
 0f3d4bb7128a287827d041c696039525 Assembly-CSharp.dll:UnityStandardAssets.Utility.AutoMobileShaderSwitch
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BackToMainLevel
