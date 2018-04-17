@@ -8,6 +8,7 @@ TagManager:
   - Fire
   - Bullet
   - Page
+  - Ebullet
   layers:
   - Default
   - TransparentFX

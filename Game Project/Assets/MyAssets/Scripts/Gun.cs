@@ -35,11 +35,7 @@ public class Gun : MonoBehaviour {
         {
             Reload();
         }
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            Health--;
-            HealthBar.fillAmount = Health/100f;
-        }
+       
         if (bullets == 0)
         {
             BulletText.color = Color.red;
@@ -80,5 +76,13 @@ public class Gun : MonoBehaviour {
             Debug.Log("Reload");
         }
     }
+
+	void onColliderEnter(Collider collission){
+		if (gameObject.tag == "Bullet")
+		{
+			Health= Health - 20;
+			HealthBar.fillAmount = Health/100f;
+		}
+	}
     
 }

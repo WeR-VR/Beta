@@ -10,7 +10,7 @@ public class EBulletScript : MonoBehaviour {
 	public float bulletStrength= 5.0f;
 
 	private bool onRange= false;
-
+	public float rand = 5;
 	public Rigidbody projectile;
 
 
@@ -18,7 +18,7 @@ public class EBulletScript : MonoBehaviour {
 	void Start () {
 
 
-		float rand = Random.Range (5.0f, 8.0f);
+		//float rand = Random.Range (5.0f, 8.0f);
 		InvokeRepeating("Shoot", 2, rand);
 	}
 	
@@ -44,4 +44,6 @@ public class EBulletScript : MonoBehaviour {
 		}
 
 }
+
+
 }
