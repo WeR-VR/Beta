@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Gun : MonoBehaviour {
 	public GameObject BulletPrefab;
@@ -77,12 +78,24 @@ public class Gun : MonoBehaviour {
         }
     }
 
-	void onColliderEnter(Collider collission){
-		if (gameObject.tag == "Bullet")
-		{
-			Health= Health - 20;
+	void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Bullet")
+        {
+            Health = Health - 20;
 			HealthBar.fillAmount = Health/100f;
-		}
+            if (Health <= 0)
+            {
+                //dead.Play ();
+                //PlayerScript.score += scoreValue;
+                SceneManager.LoadScene(0);
+            }
+        }
 	}
+    public float GetHealth(float health)
+    {
+        health = Health;
+        return health;
+    }
     
 }
