@@ -44,10 +44,10 @@
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="UnityEngine">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed\UnityEngine.dll</HintPath>
+      <HintPath>C:/Program Files/Unity4.1/Editor/Data/Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+      <HintPath>C:/Program Files/Unity4.1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -161,20 +161,29 @@
      <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\BossRIP.cs" />
      <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\BossScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\EBulletScript.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\EnemyScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\PathScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\BombardiersScript\VehicleFollowing.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\BulletScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Collectables.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\DefenseUpScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\DoorScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\EnemyScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Gun.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Gun_raycast.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\GunScript.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\HealthUpScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Laser.cs" />
      <Compile Include="Assets\MyAssets\Scripts\MainMenu.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Menu\GameMenuScript.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\Menu\MenuScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Objective.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Platform.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Projectile.cs" />
      <Compile Include="Assets\MyAssets\Scripts\SimpleRotate.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\SoldierScript.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\SpawnerScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\TitleFire.cs" />
      <Compile Include="Assets\MyAssets\Scripts\TitleScreen.cs" />
      <Compile Include="Assets\PrimaryAssets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
@@ -272,34 +281,34 @@
      <None Include="Assets\PrimaryAssets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
      <None Include="Assets\Models\Model_Environment\ReadMe.txt" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Timeline">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UIAutomation">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/UIAutomation/UnityEngine.UIAutomation.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.GoogleAudioSpatializer">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ <HintPath>C:/Program Files/Unity4.1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>D:/Beta/Game Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/Dennis/Documents/GitHub/Beta/Game Project/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/ProgramData/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
