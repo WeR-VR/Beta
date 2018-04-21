@@ -1,6 +1,6 @@
-WindowsStandalone
+Android
 PlayerPath?
-D:/College Stuff/Unity/WeRVR_Beta/Beta/WindowBuild/Future of the West.exe
+D:/College Stuff/Unity/WeRVR_Beta/Beta/AndroidBuild/Robot_Cowboy_Gamev2.3.0.apk
 SceneListBegin?
 Assets/MyAssets/Scene/TitleScreen.unity
 Assets/MyAssets/Scene/MainLevel.unity
@@ -11,6 +11,7 @@ SceneListEnd?
 7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp.dll:UnityStandardAssets.Effects.ExtinguishableParticleSystem
 d1d3562bf07a623543c1125268a414b4 Assembly-CSharp.dll:.Gun_raycast
 7ba1e84ad3d2d8813486668e75f842ce Assembly-CSharp.dll:UnityStandardAssets.Effects.ParticleSystemMultiplier
+6506b1c1d66cb5758415f65b6e90e1c7 Assembly-CSharp.dll:.HealthUpScript
 8f79545084adeb5bd338aaf9bf01064e Assembly-CSharp.dll:.Gun
 0ea7e3a1b65cd933d7a007e6774c4eaa Assembly-CSharp.dll:UnityStandardAssets.Characters.ThirdPerson.AICharacterControl
 7481472d4e57e8477d484d43a43b79dc Assembly-CSharp.dll:UnityStandardAssets.Characters.FirstPerson.FirstPersonController
@@ -21,6 +22,7 @@ d1d3562bf07a623543c1125268a414b4 Assembly-CSharp.dll:.Gun_raycast
 3b945a83fa61133bbb7c61d4d7012fd9 Assembly-CSharp.dll:UnityStandardAssets.Effects.Hose
 8a8bbf8c923aa45b1565ce9733c32e8e Assembly-CSharp.dll:GoogleVR.PermissionsDemo.PermissionsFlowManager
 8e9f5b922979e9356a11d2ee2b32ee60 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.TiltInput
+408691a0dff827151efd99f9ab792b5f Assembly-CSharp.dll:.GunScript
 aa13baec1c19c8fa869cb21cb01a3767 Assembly-CSharp.dll:UnityStandardAssets.Water.WaterBase
 8b8d573315d3b0f2cea37c3653f4c9fb Assembly-CSharp.dll:GoogleVR.VideoDemo.AppButtonInput
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BossScript
@@ -50,11 +52,13 @@ dc07d7ad69b399a46e92c483bf1c04ca UnityEngine.Analytics.dll:UnityEngine.Analytics
 78ebae5ed9b3edeb216da437b99754a4 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.Joystick
 149e538468c9a609cf26b23682c996c7 Assembly-CSharp.dll:UnityStandardAssets.Utility.PlatformSpecificContent
 37bf4d6a6d424731cb4a9b998783e5c6 Assembly-CSharp.dll:UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter
+8862fb6db25842e2d62242856f556bfa Assembly-CSharp.dll:.BulletScript
 4df86f437a61b08c14fd0adff88ddf71 Assembly-CSharp.dll:UnityStandardAssets.Utility.ActivateTrigger
 37e4e5f1a4e50580a311db4bc625d77a Assembly-CSharp.dll:.VehicleFollowing
 a2efb0db652b8114d1ae7dd9a600d626 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.InputAxisScrollbar
 fe76270bd84ec3b6f2f6f92c69cf69da Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.AxisTouchButton
 03f12694d8815c5c1846b514244afecc Assembly-CSharp.dll:.GvrAllEventsTrigger
+83baeaec195f12c5550295577d2ac2c6 Assembly-CSharp.dll:.SpawnerScript
 a7d3c6c6948d99dd4116e659ddcf5ac4 Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.ButtonHandler
 83877f03b51b3b13fa0d6c51291e0575 Assembly-CSharp.dll:UnityStandardAssets.Characters.FirstPerson.HeadBob
 82c4df0703ee0c74fec7eda7f1754686 Assembly-CSharp.dll:.GvrAudioListener
@@ -68,10 +72,12 @@ cfa93710d56cd4da2a3b2eec27bc1139 Assembly-CSharp.dll:UnityStandardAssets.Water.P
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Water.Displace
 0c8bf33bdb1c89d7679218c3855ff070 Assembly-CSharp.dll:.Door1
+d2a384feb83851929df5e77f8b2d840b Assembly-CSharp.dll:.PlayerScript
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.CrossPlatformInput.MobileControlRig
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Utility.ObjectResetter
 e97ff9540a49b92b779792c195839d33 Assembly-CSharp.dll:UnityStandardAssets.Effects.AfterburnerPhysicsForce
 ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrTrackedController
+b038de5fdf465119609af0575ad30749 Assembly-CSharp.dll:.MenuScript
 31e91faba2267dbf8c0fe528bca54ff7 Assembly-CSharp.dll:.GvrLaserPointer
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Water.WaterBasic
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:UnityStandardAssets.Effects.FireLight
@@ -80,12 +86,14 @@ a5e4f296becddd141bbd4a5ebb8c7ba7 Assembly-CSharp.dll:.Enemy
 72903e4446a2f2d54923b10a70b2c5ba Assembly-CSharp.dll:Gvr.Internal.InstantPreview
 21984f001d5a114ee9fbf62810ee8eb7 Assembly-CSharp.dll:UnityStandardAssets.Water.SpecularLighting
 2dbfd4f7836c7f6a79e17be5f4bf7969 Assembly-CSharp.dll:UnityStandardAssets.Utility.WaypointCircuit
+fb25beb3a347228989ba9b98473a0504 Assembly-CSharp.dll:.DefenseUpScript
 2c62b9ae79b8b54dd7b55fa7d311452b Assembly-CSharp.dll:UnityStandardAssets.Water.Water
 1c952386af3ef6bd3c90a34c4fd12f6b Assembly-CSharp.dll:GoogleVR.HelloVR.ObjectController
 517d04f641aa024efd6aa11793be4c72 Assembly-CSharp.dll:.Projectile
 b1f0704fc1b542c80ecf3fa1bbf472a1 Assembly-CSharp.dll:UnityStandardAssets.Characters.FirstPerson.RigidbodyFirstPersonController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GvrControllerTooltipsSimple
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.AlphaButtonClickMask
+cce70ee0e38743f75ebb6930acec7e39 Assembly-CSharp.dll:.EnemyScript
 ec7197ab43ffb42a7321b609332a9861 Assembly-CSharp.dll:.GvrControllerVisualManager
 d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp.dll:UnityStandardAssets.Utility.DynamicShadowSettings
 1f3a68064dbfa3445b5941d1d23a8ce5 Assembly-CSharp.dll:.GvrPointerPhysicsRaycaster
@@ -95,10 +103,12 @@ d2af69ce28cda6fcf0b7728ae3f251b4 Assembly-CSharp.dll:UnityStandardAssets.Utility
 773659ee139465de815012b250038305 Assembly-CSharp.dll:GoogleVR.VideoDemo.VideoPlayerReference
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.InstantPreviewHelper
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Gvr.Internal.EmulatorManager
+107062cd090d1ce3c3a7e9175dda0d93 Assembly-CSharp.dll:.GameMenuScript
 eca6588934e978a74735e6737af683a8 Assembly-CSharp.dll:.GvrReticlePointer
 ab232dc3d94359ca42eabb9c72cbbb82 Assembly-CSharp.dll:UnityStandardAssets.Effects.WaterHoseParticles
 5a21937e8c890f171c4c86d80a68aac8 Assembly-CSharp.dll:.BossRIP
 c9576c6a51e2e71bc5caab85a96801e8 Assembly-CSharp.dll:UnityStandardAssets.Effects.SmokeParticles
+8c87d033c5f1a54635bbbff15969f84e Assembly-CSharp.dll:.SoldierScript
 db3b233e35a88802fed1717d19c3d9ec Assembly-CSharp.dll:UnityStandardAssets.Utility.FollowTarget
 2a13deadfd379d1bb4ab0ebd2c20ca7e Assembly-CSharp.dll:.GvrLaserVisual
 24f6a3eb1c9b232bcf23fbcef06cdf98 Assembly-CSharp.dll:.GvrControllerVisual
@@ -273,13 +283,3 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 463516d5b5fe8e67a0a24c48f2095b04 UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
-8862fb6db25842e2d62242856f556bfa Assembly-CSharp.dll:.BulletScript
-408691a0dff827151efd99f9ab792b5f Assembly-CSharp.dll:.GunScript
-8c87d033c5f1a54635bbbff15969f84e Assembly-CSharp.dll:.SoldierScript
-b038de5fdf465119609af0575ad30749 Assembly-CSharp.dll:.MenuScript
-fb25beb3a347228989ba9b98473a0504 Assembly-CSharp.dll:.DefenseUpScript
-6506b1c1d66cb5758415f65b6e90e1c7 Assembly-CSharp.dll:.HealthUpScript
-d2a384feb83851929df5e77f8b2d840b Assembly-CSharp.dll:.PlayerScript
-83baeaec195f12c5550295577d2ac2c6 Assembly-CSharp.dll:.SpawnerScript
-107062cd090d1ce3c3a7e9175dda0d93 Assembly-CSharp.dll:.GameMenuScript
-cce70ee0e38743f75ebb6930acec7e39 Assembly-CSharp.dll:.EnemyScript
